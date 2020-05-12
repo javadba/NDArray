@@ -1,4 +1,5 @@
 import Foundation
+import QuartzCore
 
 public protocol Divisible: Numeric {
     static func / (lhs: Self, rhs: Self) -> Self
